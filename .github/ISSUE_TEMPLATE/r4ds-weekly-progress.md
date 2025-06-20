@@ -6,7 +6,7 @@ labels: progress
 assignees: maxhubdata
 ---
 
-## Chapter 1 and 2 will be review (I did them before)
+## Chapter 1 and 2 (also some of 3) will be review (I did them before)
 
 ## 📚 Chapters Covered
 - [x ] Chapter 1: [Data Visualization]

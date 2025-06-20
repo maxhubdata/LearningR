@@ -9,17 +9,17 @@ assignees: maxhubdata
 ## Chapter 1 and 2 (also some of 3) will be review (I did them before)
 
 ## 📚 Chapters Covered
-- [x ] Chapter 1: [Data Visualization]
+- [x] Chapter 1: [Data Visualization]
 - [ ] Chapter 2: [Workflow: Basics]
 - [ ] Chapter 3: [Data Transformations]
 
 ## ✅ Checklist
 
-- [x ] Read all chapters listed above
-- [x ] Coded along with examples
-- [x ] Completed the practice exercises
-- [n/a ] Explored concepts with my own dataset
-- [ x] Summarized key takeaways
+- [x] Read all chapters listed above
+- [x] Coded along with examples
+- [x] Completed the practice exercises
+- [] Explored concepts with my own dataset
+- [x] Summarized key takeaways
 
 ## 💡 Key Concepts Learned
 - Bullet 1: plotting datasets using ggplot2

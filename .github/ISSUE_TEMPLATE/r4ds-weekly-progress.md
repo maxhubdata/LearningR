@@ -18,7 +18,7 @@ assignees: maxhubdata
 - [x] Read all chapters listed above
 - [x] Coded along with examples
 - [x] Completed the practice exercises
-- [] Explored concepts with my own dataset
+- [ ] Explored concepts with my own dataset
 - [x] Summarized key takeaways
 
 ## 💡 Key Concepts Learned

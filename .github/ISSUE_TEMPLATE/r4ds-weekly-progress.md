@@ -1,15 +1,17 @@
 ---
 name: 📘 R4DS Weekly Progress
 about: Track progress for a week of learning from "R for Data Science (2e)"
-title: "[Week X] Chapters Y–Z Progress"
+title: "[Week 1] Chapters 1–X Progress"
 labels: progress
-assignees: your-github-username
+assignees: maxhubdata
 ---
 
+## Chapter 1 and 2 will be review (I did them before)
+
 ## 📚 Chapters Covered
-- [ ] Chapter X: [Insert Chapter Title]
-- [ ] Chapter Y: [Insert Chapter Title]
-- [ ] Chapter Z: [Insert Chapter Title]
+- [ ] Chapter 1: [Data Visualization]
+- [ ] Chapter 2: [Workflow: Basics]
+- [ ] Chapter 3: [Data Transformations]
 
 ## ✅ Checklist
 
@@ -37,5 +39,5 @@ assignees: your-github-username
 - Anything confusing, exciting, or worth revisiting later
 
 ## 📅 Dates
-- Started: YYYY-MM-DD
-- Finished: YYYY-MM-DD
+- Started: 2025-06-19
+- Finished: 2025-06-26

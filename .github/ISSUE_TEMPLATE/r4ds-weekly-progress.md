@@ -10,8 +10,8 @@ assignees: maxhubdata
 
 ## 📚 Chapters Covered
 - [x] Chapter 1: [Data Visualization]
-- [ ] Chapter 2: [Workflow: Basics]
-- [ ] Chapter 3: [Data Transformations]
+- [x] Chapter 2: [Workflow: Basics]
+- [x] Chapter 3: [Data Transformations]
 
 ## ✅ Checklist
 
@@ -54,8 +54,10 @@ assignees: maxhubdata
 - sidenote 3, dplyr functions never modify their inputs, use an assignment operator "<-" to save them
 - important verbs for dplyr (categorized by what they operate on):
   - Rows: filter() {keeps rows based on values of columns}, arrange() {changes order of rows based on the      value of columns, if more than one column name is provided then the additional column names are used to       break ties in sorting. also, you can use desc() inside arrange() to order it big to small, ex:               arrange(desc(dep_delay)), distinct() {finds unique rows of the dataset, for distinct combinations of         variables you supply column names (this gets rid of the other unnamed columns, to not have this happen       use .keep_all = TRUE), count() {to find number of occurences, essentially same as distinct() but gives       number of times the unique combination happens, use sort = TRUE to have it in descending order}.
-  - Columns: mutate() {adds new columns, use .before or .after to position it, ex: .before=1 to put it in       front (note, the "." indicates that its an argument, not the name of another variable). .keep can be used    to choose which variables to keep, the argument "used" is useful because it will only keep whats used in     the mutate step, ex: .keep = "used")}, select() {lets you focus on a subset of variables. either: by name    (select(year,month day)), all between (select(year:day)) {inclusive}, all except(select(!year:day))         {inclusive}} (sidenote, select() has helper functions that can be used inside it: starts_with(""),           ends_with(""), contains(""), num_range("",?:?) num_range confuses me, revisit later using ?select in         RStudio), rename() {renames an existing variable, ex: rename(newname=oldname)}, relocate() {moves           variables to the front by default... .before and .after can be used to alter this}. RETURN TOMORROW TO DO EXERCISES AND FINISH THE CHAPTER
-
+  - Columns: mutate() {adds new columns, use .before or .after to position it, ex: .before=1 to put it in       front (note, the "." indicates that its an argument, not the name of another variable). .keep can be used    to choose which variables to keep, the argument "used" is useful because it will only keep whats used in     the mutate step, ex: .keep = "used")}, select() {lets you focus on a subset of variables. either: by name    (select(year,month day)), all between (select(year:day)) {inclusive}, all except(select(!year:day))         {inclusive}} (sidenote, select() has helper functions that can be used inside it: starts_with(""),           ends_with(""), contains(""), num_range("",?:?) num_range confuses me, revisit later using ?select in         RStudio), rename() {renames an existing variable, ex: rename(newname=oldname)}, relocate() {moves           variables to the front by default... .before and .after can be used to alter this}.
+  - Grouping: group_by() {divides the dataset into groups!.. then future applied operations will be onto the new group. Ex: group_by(months) |> infosummarizingthingy() (this will return the info summarized divided into the 12 months if that makes sense. A useful hotkey when in an operation is .by. also, for grouping by multiple variables, you group the consecutive variables within the previous. intuitively think of grouping as sorting values into boxes, with more variables adding boxes inside the already existing boxes}, summarize() {calculates a summary statistic after grouping... like the mean, multiple summaries can be created in a single call, also n=n() is useful inside an operation to print the number of rows}, slice_head/tail/whatever(n=?) {takes only the row(s) of your choosing... more n means more rows. -n subtracts from total rows. can only be done for groups}, ungroup() {ungroups data from a dataframe}, sidenote but count() is basically just group_by()|>summarize(n=n()) but a shortcut.
+- review mutate() and summarize()... reflect on chapter 3 heavily to ensure understanding.
+- read these two articles: http://varianceexplained.org/r/empirical_bayes_baseball/ and https://www.evanmiller.org/how-not-to-sort-by-average-rating.html
 
 ## 📅 Dates
 - Started: 2025-06-19

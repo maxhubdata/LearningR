@@ -12,6 +12,9 @@ assignees: maxhubdata
 - [x] Chapter 1: [Data Visualization]
 - [x] Chapter 2: [Workflow: Basics]
 - [x] Chapter 3: [Data Transformations]
+- [ ] Chapter 4: [Workflow: code style]
+- [ ] Chapter 5: [Data Tidying]
+- [ ] Chapter 6: [Workflow: scripts and projects]
 
 ## ✅ Checklist
 

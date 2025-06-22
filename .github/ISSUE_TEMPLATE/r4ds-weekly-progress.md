@@ -35,6 +35,8 @@ assignees: maxhubdata
 ## 📊 Visuals / Plots Created
 - <img width="430" alt="image" src="https://github.com/user-attachments/assets/bb9e0bea-062a-4356-856e-b5e286b76b6b" />
 - <img width="425" alt="image" src="https://github.com/user-attachments/assets/9f76f255-89ab-427b-927c-219514b0f18d" />
+- <img width="302" alt="image" src="https://github.com/user-attachments/assets/d91430cd-3278-46eb-a85e-188a4c102468" />
+
 
 
 

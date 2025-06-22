@@ -12,7 +12,7 @@ assignees: maxhubdata
 - [x] Chapter 1: [Data Visualization]
 - [x] Chapter 2: [Workflow: Basics]
 - [x] Chapter 3: [Data Transformations]
-- [ ] Chapter 4: [Workflow: code style]
+- [x] Chapter 4: [Workflow: code style]
 - [ ] Chapter 5: [Data Tidying]
 - [ ] Chapter 6: [Workflow: scripts and projects]
 
@@ -33,7 +33,10 @@ assignees: maxhubdata
 - penguins, flights
 
 ## 📊 Visuals / Plots Created
-- not necessary tbh, all is pretty simple
+- <img width="430" alt="image" src="https://github.com/user-attachments/assets/bb9e0bea-062a-4356-856e-b5e286b76b6b" />
+- <img width="425" alt="image" src="https://github.com/user-attachments/assets/9f76f255-89ab-427b-927c-219514b0f18d" />
+
+
 
 ## 🧪 Mini Project (Optional)
 - n/a 

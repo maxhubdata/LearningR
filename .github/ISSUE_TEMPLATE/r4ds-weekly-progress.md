@@ -69,6 +69,7 @@ assignees: maxhubdata
 - Style tips: for names use only lower case and _ to seperate words in a name. put spaces on both sides of mathematical operators and the assignment operator (<-). for function calls don't put spaces before the bracket. always put a space after a comma. adding extra spaces is okay to improve alignment... make sure code is easy to read! pipes should always have a space before them and be the last thing on a line (then double indent the line after them). for functions with named arguments, put each argument on a new line, if arguments are unnamed then all in the same line is okay. if a named argument has its own line, make sure they're indented by an extra two spaces. give the end of brackets their own line for named argument functions. break super long pipes into smaller pipes with informative names. for ggplot2, treat the + the same as |> for the style rules. add sectioning comments for long files. example of pretty code:
  <img width="335" alt="image" src="https://github.com/user-attachments/assets/6df937a8-11a7-4635-815d-8d61ae905d6e" />
 - further readings I want to complete: https://projecteuclid.org/ebook/Download?urlid=10.1214%2F10-IMSCOLL618&isFullBook=False and http://varianceexplained.org/statistics/beta_distribution_and_baseball/
+- what IS tidy data: each variable is a column and each column is a variable. each observation is a row and each row is an observation. each value is a cell and each cell is a single value. 
 
 
 ## 📅 Dates

@@ -41,6 +41,13 @@ assignees: maxhubdata
 - parse_number extracts the first number from a string, ignoring all other text
 - review wtf .value actually does (5.3.4)
 - data widening: use pivot_longer(): ex: cms_patient_experience |> pivot_wider(id_cols=starts_with("org"),names_from = measure_cd,values_from = prf_rate) {names_from takes the values of a column and makes them column names, values_from takes values from a column and makes them the values under the new columns you've made.}
+- hotkeys: ctrl + shift + n opens R script. ctrl + enter runs the next line of code. ctrl + shift + s runs the full script. ctrl + shift + m for pipe (reminder for myself)
+- only use relative paths inside a project!
+- reading data types: for csv (comma seperated values) use read_csv("fileaddresshere"). R recognizes "na" to mean not available, sometimes you need to add code to get R to recognize what's supposed to be na in a data set, ex: students <- read_csv("data/students.csv", na = c("N/A", "")). when referring to variables with non-syntactic names (typically they have spaces inbetween instead of _) use backticks "`" to refer to them. use skip = n in the read_csv to skip n amount of lines. or comment = "whatever" to indicate that "whatever" is the start of a comment and those lines will be ignored. if there's no column names, then use col_names=FALSE. read_csv2 is for semicolon seperated files. read_tsv is for tab delimited files. read_delim guesses the delimiter if unspecified. read_fwf is for fixed width files. read_table reads a variation of fixed width files where the columns are seperated by white space. read_log reads apache-style log files. 
+- to figure out more about why there's a problem, use problems()
+- revisit chapter 7 in the future when encountering data errors
+- save a bunch of data files in a vector so they can be read all at once with read_csv
+- use write_csv(dataframe,"locationyouwanttosavethefile.csv") (or write_tsv for tab seperated values) to save data back into computer
 
 ## 📅 Dates
 - Started: 2025-07-02

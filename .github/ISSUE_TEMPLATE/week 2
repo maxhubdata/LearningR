@@ -23,7 +23,7 @@ assignees: maxhubdata
 - Bullet 1:
 
 ## 🛠️ Practice Dataset(s) Used
-- 
+- billboard, who2
 
 ## 📊 Visuals / Plots Created
 - 
@@ -34,7 +34,10 @@ assignees: maxhubdata
 ## 📝 Notes / Reflections
 - what IS tidy data: each variable is a column and each column is a variable. each observation is a row and each row is an observation. each value is a cell and each cell is a single value. 
 - data lengthening: use pivot_longer(), ex: billboard |> pivot_longer(cols = starts_with("wk"), names_to = "week", values_to = "rank"). {cols are what need to be pivoted (which columns aren't variables), names_to names the variable stored in the column names, and values_to names the variable stored in the cell values.}
-- 
+- values can be dropped with values_drop_na=TRUE
+- parse_number extracts the first number from a string, ignoring all other text
+- review wtf .value actually does (5.3.4)
+- data widening: use pivot_longer(): ex: 
 
 ## 📅 Dates
 - Started: 2025-07-02

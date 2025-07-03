@@ -1,5 +1,5 @@
 ---
-name: 📘 R4DS Weekly Progress
+name: 📘 R4DS Weekly Progress 2
 about: Track progress for a week of learning from "R for Data Science (2e)"
 title: "[Week 2] Chapters 5-X"
 labels: progress

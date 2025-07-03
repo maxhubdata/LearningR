@@ -59,6 +59,7 @@ tribble ex: tribble(
   2, "m", 0.83,
   5, "g", 0.60
 ).
+- weekly readings?: https://www.tidyverse.org/blog/ and https://rweekly.org/
 
 ## 📅 Dates
 - Started: 2025-07-02

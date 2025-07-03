@@ -8,8 +8,10 @@ assignees: maxhubdata
 
 
 ## 📚 Chapters Covered
-- [ ] Chapter 5: [Data Tidying]
-- [ ] Chapter 6: [Workflow: scripts and projects]
+- [x] Chapter 5: [Data Tidying]
+- [x] Chapter 6: [Workflow: scripts and projects]
+- [ ] Chapter 7: [Data import]
+- [ ] Chapter 8: [Workflow: getting help]
 
 ## ✅ Checklist
 
@@ -26,7 +28,8 @@ assignees: maxhubdata
 - billboard, who2
 
 ## 📊 Visuals / Plots Created
-- 
+- <img width="434" alt="image" src="https://github.com/user-attachments/assets/89e3f5bb-9150-4530-a53a-ee909e3ead8b" />
+
 
 ## 🧪 Mini Project (Optional)
 - n/a 
@@ -37,7 +40,7 @@ assignees: maxhubdata
 - values can be dropped with values_drop_na=TRUE
 - parse_number extracts the first number from a string, ignoring all other text
 - review wtf .value actually does (5.3.4)
-- data widening: use pivot_longer(): ex: 
+- data widening: use pivot_longer(): ex: cms_patient_experience |> pivot_wider(id_cols=starts_with("org"),names_from = measure_cd,values_from = prf_rate) {names_from takes the values of a column and makes them column names, values_from takes values from a column and makes them the values under the new columns you've made.}
 
 ## 📅 Dates
 - Started: 2025-07-02

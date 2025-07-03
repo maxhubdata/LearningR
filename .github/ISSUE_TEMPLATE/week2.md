@@ -11,7 +11,7 @@ assignees: maxhubdata
 - [x] Chapter 5: [Data Tidying]
 - [x] Chapter 6: [Workflow: scripts and projects]
 - [x] Chapter 7: [Data import]
-- [ ] Chapter 8: [Workflow: getting help]
+- [x] Chapter 8: [Workflow: getting help]
 
 ## ✅ Checklist
 

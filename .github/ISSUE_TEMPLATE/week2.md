@@ -10,16 +10,16 @@ assignees: maxhubdata
 ## 📚 Chapters Covered
 - [x] Chapter 5: [Data Tidying]
 - [x] Chapter 6: [Workflow: scripts and projects]
-- [ ] Chapter 7: [Data import]
+- [x] Chapter 7: [Data import]
 - [ ] Chapter 8: [Workflow: getting help]
 
 ## ✅ Checklist
 
-- [] Read all chapters listed above
-- [] Coded along with examples
-- [] Completed the practice exercises
+- [x] Read all chapters listed above
+- [x] Coded along with examples
+- [x] Completed the practice exercises
 - [] Explored concepts with my own dataset
-- [] Summarized key takeaways
+- [x] Summarized key takeaways
 
 ## 💡 Key Concepts Learned
 - Bullet 1:
@@ -47,7 +47,18 @@ assignees: maxhubdata
 - to figure out more about why there's a problem, use problems()
 - revisit chapter 7 in the future when encountering data errors
 - save a bunch of data files in a vector so they can be read all at once with read_csv
-- use write_csv(dataframe,"locationyouwanttosavethefile.csv") (or write_tsv for tab seperated values) to save data back into computer
+- use write_csv(dataframe,"locationyouwanttosavethefile.csv") (or write_tsv for tab seperated values) to save data back into computer. when you save the data and load it back in from the CSV file, the information on the column types is lost (because a CSV file is plain text), so R has to guess column types again when you load it back in, ex: you set a column as a factor, R reads it and thinks it's actually a character. to fix this, write_rds() and read_rds() can be used because they use R's custom binary format to store the data, so the object will be the EXACT same that you stored (the only issue being... it's only usable in R)
+- use tibble() or tribble() {transposed tibble} for data entry. basically, tibble does it by column, tribble does it by row. tibble ex: tibble(
+  x = c(1, 2, 5), 
+  y = c("h", "m", "g"),
+  z = c(0.08, 0.83, 0.60)
+).
+tribble ex: tribble(
+  ~x, ~y, ~z,
+  1, "h", 0.08,
+  2, "m", 0.83,
+  5, "g", 0.60
+).
 
 ## 📅 Dates
 - Started: 2025-07-02

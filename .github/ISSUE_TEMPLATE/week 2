@@ -16,7 +16,7 @@ assignees: maxhubdata
 - [] Read all chapters listed above
 - [] Coded along with examples
 - [] Completed the practice exercises
-- [ ] Explored concepts with my own dataset
+- [] Explored concepts with my own dataset
 - [] Summarized key takeaways
 
 ## 💡 Key Concepts Learned
@@ -32,7 +32,9 @@ assignees: maxhubdata
 - n/a 
 
 ## 📝 Notes / Reflections
-- To view 
+- what IS tidy data: each variable is a column and each column is a variable. each observation is a row and each row is an observation. each value is a cell and each cell is a single value. 
+- data lengthening: use pivot_longer(), ex: billboard |> pivot_longer(cols = starts_with("wk"), names_to = "week", values_to = "rank"). {cols are what need to be pivoted (which columns aren't variables), names_to names the variable stored in the column names, and values_to names the variable stored in the cell values.}
+- 
 
 ## 📅 Dates
 - Started: 2025-07-02

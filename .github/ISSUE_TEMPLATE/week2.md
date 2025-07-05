@@ -30,6 +30,11 @@ assignees: maxhubdata
 ## 📊 Visuals / Plots Created
 - <img width="434" alt="image" src="https://github.com/user-attachments/assets/89e3f5bb-9150-4530-a53a-ee909e3ead8b" />
 - <img width="953" alt="image" src="https://github.com/user-attachments/assets/2f560962-49c5-455e-8de1-79bb5a4e2078" />
+- <img width="427" alt="image" src="https://github.com/user-attachments/assets/ebfcc693-74e9-4e58-9637-a41a40f5c32e" />
+- <img width="431" alt="image" src="https://github.com/user-attachments/assets/06954779-f318-4547-bcdd-a372ed845bc7" />
+
+
+
 
 
 
@@ -63,6 +68,14 @@ tribble ex: tribble(
 ).
 - weekly readings?: https://www.tidyverse.org/blog/ and https://rweekly.org/
 - i just tried participating in tidytuesday for the first time!! thats a big step forward. i dont think i actually found anything insightful in my plot... sort of meaningless, will reflect on how to make it less shitty lol. 
+- in ggplot, you can use color =, size =, alpha = (transparency), and shape = as aesthetic mappings. (only 6 shapes though, rest are unplotted). you can also use these visual properties in the geom function
+- don't do specific color mapping (like, color = "blue") inside the aes()
+- stroke inside the aes controls the width of the border of the points
+- linetype = as an aesthetic mapping changes how geom_smooth() {or whatever other lines there are presumably} look
+- local mappings overwrite global mappings
+- for geom_smooth, multiple lines will be created if theres multiple categorical groupings
+- you can specify data in the geoms, like geom_point(data |> filter(whatever))
+- 
 
 ## 📅 Dates
 - Started: 2025-07-02

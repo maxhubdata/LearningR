@@ -29,6 +29,8 @@ assignees: maxhubdata
 
 ## 📊 Visuals / Plots Created
 - <img width="434" alt="image" src="https://github.com/user-attachments/assets/89e3f5bb-9150-4530-a53a-ee909e3ead8b" />
+- <img width="953" alt="image" src="https://github.com/user-attachments/assets/2f560962-49c5-455e-8de1-79bb5a4e2078" />
+
 
 
 ## 🧪 Mini Project (Optional)
@@ -60,6 +62,7 @@ tribble ex: tribble(
   5, "g", 0.60
 ).
 - weekly readings?: https://www.tidyverse.org/blog/ and https://rweekly.org/
+- i just tried participating in tidytuesday for the first time!! thats a big step forward.
 
 ## 📅 Dates
 - Started: 2025-07-02

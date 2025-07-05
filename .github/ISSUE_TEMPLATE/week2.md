@@ -75,7 +75,12 @@ tribble ex: tribble(
 - local mappings overwrite global mappings
 - for geom_smooth, multiple lines will be created if theres multiple categorical groupings
 - you can specify data in the geoms, like geom_point(data |> filter(whatever))
+- <img width="467" alt="image" src="https://github.com/user-attachments/assets/4c336466-e71f-400c-a0ce-ea761812f054" />
+- use facet_wrap(~categorical variable), to split the plot into subplots based on the categorical variable
+- for two categorical variables use facet_grid(rows ~ columns)
+- setting scales = "free_x" allows different scales of x axis along the columns, "free_y" is the same but for y axis along the rows, "free" is both
 - 
+
 
 ## 📅 Dates
 - Started: 2025-07-02

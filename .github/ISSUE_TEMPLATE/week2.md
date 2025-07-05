@@ -62,7 +62,7 @@ tribble ex: tribble(
   5, "g", 0.60
 ).
 - weekly readings?: https://www.tidyverse.org/blog/ and https://rweekly.org/
-- i just tried participating in tidytuesday for the first time!! thats a big step forward.
+- i just tried participating in tidytuesday for the first time!! thats a big step forward. i dont think i actually found anything insightful in my plot... sort of meaningless, will reflect on how to make it less shitty lol. 
 
 ## 📅 Dates
 - Started: 2025-07-02

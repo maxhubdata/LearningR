@@ -77,9 +77,12 @@ tribble ex: tribble(
 - you can specify data in the geoms, like geom_point(data |> filter(whatever))
 - <img width="467" alt="image" src="https://github.com/user-attachments/assets/4c336466-e71f-400c-a0ce-ea761812f054" />
 - use facet_wrap(~categorical variable), to split the plot into subplots based on the categorical variable
-- for two categorical variables use facet_grid(rows ~ columns)
+- for two categorical variables use facet_grid(rows ~ columns) {tip, using "." is a filler that does nothing allowing you to treat facet_grid like facet_wrap, ex: facet_grind(rows~.)}
 - setting scales = "free_x" allows different scales of x axis along the columns, "free_y" is the same but for y axis along the rows, "free" is both
-- 
+- dont facet a continuous variable, too many plots will be created
+- faceting a variable by columns makes the data easier to compare typically
+- every geom has a default stat (algorithm used to calculate new values for a graph, like how bar graphs count), inside a geom (and aesthetic?) you can use stat = "insertvariable" to change it.
+- stat_summary() summarizes the y value for each unique x value
 
 
 ## 📅 Dates

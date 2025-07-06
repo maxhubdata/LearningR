@@ -83,6 +83,7 @@ tribble ex: tribble(
 - faceting a variable by columns makes the data easier to compare typically
 - every geom has a default stat (algorithm used to calculate new values for a graph, like how bar graphs count), inside a geom (and aesthetic?) you can use stat = "insertvariable" to change it.
 - stat_summary() summarizes the y value for each unique x value
+- 
 
 
 ## 📅 Dates

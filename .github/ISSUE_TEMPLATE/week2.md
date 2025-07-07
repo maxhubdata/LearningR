@@ -12,20 +12,22 @@ assignees: maxhubdata
 - [x] Chapter 6: [Workflow: scripts and projects]
 - [x] Chapter 7: [Data import]
 - [x] Chapter 8: [Workflow: getting help]
+- [x] Chapter 9: [Layers]
+- [x] Chapter 10: [Exploratory data analysis]
 
 ## ✅ Checklist
 
 - [x] Read all chapters listed above
 - [x] Coded along with examples
 - [x] Completed the practice exercises
-- [] Explored concepts with my own dataset
+- [x] Explored concepts with my own dataset
 - [x] Summarized key takeaways
 
 ## 💡 Key Concepts Learned
-- Bullet 1:
+- Bullet 1: not doing this
 
 ## 🛠️ Practice Dataset(s) Used
-- billboard, who2
+- also not doing this lol
 
 ## 📊 Visuals / Plots Created
 - <img width="434" alt="image" src="https://github.com/user-attachments/assets/89e3f5bb-9150-4530-a53a-ee909e3ead8b" />
@@ -39,7 +41,7 @@ assignees: maxhubdata
 
 
 ## 🧪 Mini Project (Optional)
-- n/a 
+- pokemon tidy tuesday...
 
 ## 📝 Notes / Reflections
 - what IS tidy data: each variable is a column and each column is a variable. each observation is a row and each row is an observation. each value is a cell and each cell is a single value. 
@@ -83,7 +85,7 @@ tribble ex: tribble(
 - faceting a variable by columns makes the data easier to compare typically
 - every geom has a default stat (algorithm used to calculate new values for a graph, like how bar graphs count), inside a geom (and aesthetic?) you can use stat = "insertvariable" to change it.
 - stat_summary() summarizes the y value for each unique x value
-- 
+- use coord_cartesian() to zoom in to a graph, with the argument inside xlim and ylim to zoom into the x and y axis respectively
 
 
 ## 📅 Dates
